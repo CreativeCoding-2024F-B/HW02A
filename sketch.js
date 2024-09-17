@@ -8,9 +8,13 @@ function setup() {
   let rectY = 300; 
   let rectW = 200;
 
+  fill(200, 17, 3);
   rect(rectX, rectY, rectW);
   ellipse(rectX + rectW/2, rectY + rectW/2, 100);
 
+  fill(250, 200, 3);
+  stroke(10, 100, 20);
+  strokeWeight(10);
   ellipse(width /2, height /2, 100);
 }
 
