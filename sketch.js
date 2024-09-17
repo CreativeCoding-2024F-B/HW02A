@@ -10,6 +10,8 @@ function setup() {
 
   rect(rectX, rectY, rectW);
   ellipse(rectX + rectW/2, rectY + rectW/2, 100);
+
+  ellipse(width /2, height /2, 100);
 }
 
 function draw() {
